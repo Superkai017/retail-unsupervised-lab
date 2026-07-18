@@ -26,9 +26,9 @@ This is a learning exercise, not a production system. The goal is to get comfort
 ```
 retail-unsupervised-lab/
 ├── data/
-│   └── online_retail.csv      # raw dataset, untouched
-├── unsupervised_lab.ipynb     # everything happens here: clean → RFM → scale → KMeans → visualize
-├── requirements.txt           # pandas, scikit-learn, matplotlib
+│   └── Online Retail - Online Retail.csv   # raw dataset, untouched
+├── unsupervised.ipynb         # everything happens here: clean → RFM → scale → KMeans → visualize
+├── requirements.txt           # pandas, scikit-learn, matplotlib, seaborn
 └── README.md                  # this file
 ```
 
@@ -40,7 +40,7 @@ Kept intentionally flat — one notebook, one data folder. No `src/`, no config 
 python -m venv venv
 source venv/bin/activate      # Windows: venv\Scripts\activate
 pip install -r requirements.txt
-jupyter notebook unsupervised_lab.ipynb
+jupyter notebook unsupervised.ipynb
 ```
 
 ## Workflow
